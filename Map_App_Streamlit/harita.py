@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-unesco=pd.read("./Map_App_Streamlit/unesco.csv")
+unesco=pd.read_csv("./Map_App_Streamlit/unesco.csv")
 
 ulkelist = []
 ulkeler = unesco["Country name"].unique()
