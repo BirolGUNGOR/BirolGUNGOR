@@ -4,7 +4,7 @@ import numpy as np
 from pathlib import Path
 
 unesco1 = Path(__file__).parents[1] / 'Map_App_Streamlit/unesco.csv'
-unesco=pd.read(unesco1)
+unesco=pd.read("unesco1")
 
 ulkelist = []
 ulkeler = unesco["Country name"].unique()
